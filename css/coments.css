@@ -1,0 +1,46 @@
+:root {
+  --primary: #d87bfd;
+  --secondary: #555555;
+  --light: #dfe4fd;
+  --dark: #011a41;
+}
+
+/*---------------------------------------
+  CUSTOM FORM               
+-----------------------------------------*/
+.custom-form .form-control {
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  outline: none;
+}
+
+.custom-form button[type="submit"] {
+  background: var(--primary);
+  border: none;
+  border-radius: "100px";
+  color: #ffffff;
+  font-size: "18px";
+  font-weight: "500";
+  transition: all 0.3s;
+  margin-bottom: 0;
+}
+
+.custom-form button[type="submit"]:hover,
+.custom-form button[type="submit"]:focus {
+  background: var(--dark);
+  border-color: transparent;
+}
+
+/* servicios */
+.service-item .service-text {
+  position: relative !important;
+  width: 100% !important;
+  top: "0px" !important;
+  left: "0px" !important;
+  text-align: justify !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.06) !important;
+  transition: 0.5s;
+  z-index: 2;
+}
